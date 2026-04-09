@@ -1,4 +1,14 @@
 .navbar-brand,
-.navbar-link {
+.nav-link,
+.dropdown-item {
+  background-color: #212529 !important;
   color: white !important;
+}
+
+.dropdown-menu,
+.dropdown-item:active {
+  background-color: #212529 !important;
+}
+.nav-link i {
+  margin-right: 4px;
 }
